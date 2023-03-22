@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TreeView>
+	<Versão Text="11.5.6" Checked="False">
+		<Nota Text="Alteração nova situação de CDA" Checked="False" />
+	</Versão>
+	<Versão Text="10.1.5.5" Checked="False">
+		<Nota Text="Novo campo de placa" Checked="False" />
+	</Versão>
+	<Versão Text="10.1.2.5" Checked="False">
+		<Nota Text="Resolução bug de CDA 2252/25 duplicada" Checked="False" />
+		<Nota Text="Resolução bug de CDA 2252/25 duplicada" Checked="False" />
+		<Nota Text="Resolução bug de todas CDA's duplicada" Checked="False" />
+	</Versão>
+	<Versão Text="10.1.2.4" Checked="False">
+		<Nota Text="Resolução fato duplicados" Checked="False" />
+	</Versão>
+	<Versão Text="10.1.2.3" Checked="False">
+		<Nota Text="SX" Checked="False" />
+	</Versão>
+	<Versão Text="10.1.2.2" Checked="False">
+		<Nota Text="SX" Checked="False" />
+	</Versão>
+	<Versão Text="10.1.2.1" Checked="False">
+		<Nota Text="SX" Checked="False" />
+	</Versão>
+</TreeView>
