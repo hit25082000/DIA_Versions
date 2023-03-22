@@ -75,7 +75,7 @@ namespace DIA_Versions
                 treeView1.SelectedNode = versao; 
                 treeView1.SelectedNode.Expand();
             }else
-                MessageBox.Show("Versão não encontrada", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Versão não encontrada ", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         //Botão de adicionar
