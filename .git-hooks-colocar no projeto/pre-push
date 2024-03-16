@@ -1,0 +1,9 @@
+#!/bin/sh
+
+branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
+if [[ "$branch" == publish* ]]; then
+    echo "Branch $branch is allowed to version."
+    sed -i 's|</TreeView>|  <Versão Text="$branch" Checked="False"> <Nota Text="Commit" Checked="False" /> </Versão>\n</TreeView>|g' versaonota2.xml
+else
+    echo "DIA_VERSION: Branch $branch Não é valida para versionamento."
+fi
